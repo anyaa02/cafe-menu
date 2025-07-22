@@ -1,10 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0; url=https://menu-tajrobe.lovable.app" />
-    <title>Redirecting...</title>
-  </head>
-  <body>
-    <p>Redirecting to your Lovable menu...</p>
-  </body>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="5; url=https://menu-tajrobe.lovable.app" />
+  <title>Redirecting...</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #f5fafe;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: sans-serif;
+      color: #444;
+    }
+
+    img {
+      width: 150px;
+      margin-bottom: 30px;
+    }
+
+    .spinner {
+      width: 80px;
+      height: 80px;
+      border: 6px solid #a4d7f5;
+      border-top: 6px solid #2fa8e0;
+      border-radius: 50%;
+      animation: spin 1.2s linear infinite;
+      margin-bottom: 20px;
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <img src="https://anyaa02.github.io/cafe-menu/logo.png" alt="لوگوی کافه">
+  <div class="spinner"></div>
+  <p>در حال انتقال به منوی شما در Lovable...</p>
+</body>
 </html>
